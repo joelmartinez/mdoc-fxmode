@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Framework Name="LibraryName">
+  <Namespace Name="MyCode">
+    <Type Name="MyCode.MyClass" Id="T:MyCode.MyClass">
+      <Member Id="M:MyCode.MyClass.#ctor" />
+      <Member Id="P:MyCode.MyClass.MyProperty" />
+    </Type>
+  </Namespace>
+</Framework>
