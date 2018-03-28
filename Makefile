@@ -17,7 +17,7 @@ mdocprepare: restore code.dll
 
 # step 3, do the mdoc update
 mdocupdate: mdocprepare
-	mono packages/mdoc/tools/mdoc.exe update -fx tmp/frameworks.xml -out docs
+	mono packages/mdoc/tools/mdoc.exe update -fx tmp/frameworks.xml -out docs -lang docid
 
 
 .PHONY: mdocprepare mdocupdate restore
