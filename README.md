@@ -1,10 +1,11 @@
 # How to use Frameworks Mode
 
 mdoc's "frameworks mode" is a way to maintain library documentation that 
-has multiple "kinds". For many reasons, each "framework" can and often
-does have variations; sometimes it's different platform-specific types, 
-sometimes it's different attributes, and sometimes it's as simple as
-different parameter names due to legacy integrations of multiple codebases.
+has multiple variations. For many reasons, each "framework" can and often
+does have variations; versioning is the simplest example of variations in a framework,
+sometimes it's different platform-specific types, sometimes it's different attributes, 
+and sometimes it's as simple asdifferent parameter names due to legacy integrations 
+of multiple codebases.
 
 In any case, this sample shows the simplest possible use of frameworks mode.
 Start by looking at the artifacts stored in the repository:
