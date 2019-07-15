@@ -21,3 +21,5 @@ In the [Makefile](Makefile). There are three steps essential steps.
 3. Third, run `mdoc update` in frameworks mode. This differs from a regular/traditional run of mdoc update in two ways:
     - Instead of passing in a list of assemblies, we pass the path to the `frameworks.xml` file using the `-fx` (or `-frameworks`, if you'd really prefer) cli parameter.
     - We also add the `-lang docid` cli parameter. This adds an additional set of signatures to help match the IDs in the new framework index file.
+
+_Note:_ You will need to install `make`, `mono`, and `nuget` if you are running this on linux/mac/wsl
