@@ -1,0 +1,52 @@
+<Type Name="MyClassInV2" FullName="MyCode.MyClassInV2">
+  <TypeSignature Language="C#" Value="public class MyClassInV2" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit MyClassInV2 extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:MyCode.MyClassInV2" />
+  <AssemblyInfo>
+    <AssemblyName>code2</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public MyClassInV2 ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:MyCode.MyClassInV2.#ctor" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>code2</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MyV2Property">
+      <MemberSignature Language="C#" Value="public string MyV2Property { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string MyV2Property" />
+      <MemberSignature Language="DocId" Value="P:MyCode.MyClassInV2.MyV2Property" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>code2</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

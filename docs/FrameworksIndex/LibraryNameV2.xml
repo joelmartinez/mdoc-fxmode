@@ -1,12 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Framework Name="LibraryName">
+<Framework Name="LibraryNameV2">
   <Assemblies>
     <Assembly Name="code" Version="0.0.0.0" />
+    <Assembly Name="code2" Version="0.0.0.0" />
   </Assemblies>
   <Namespace Name="MyCode">
     <Type Name="MyCode.MyClass" Id="T:MyCode.MyClass">
       <Member Id="M:MyCode.MyClass.#ctor" />
       <Member Id="P:MyCode.MyClass.MyProperty" />
+      <Member Id="P:MyCode.MyClass.OnlyInV2" />
+    </Type>
+    <Type Name="MyCode.MyClassInV2" Id="T:MyCode.MyClassInV2">
+      <Member Id="M:MyCode.MyClassInV2.#ctor" />
+      <Member Id="P:MyCode.MyClassInV2.MyV2Property" />
     </Type>
   </Namespace>
 </Framework>
